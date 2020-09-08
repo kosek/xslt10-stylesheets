@@ -14,7 +14,7 @@
 <!-- ********************************************************************
 
      This file is part of the XSL DocBook Stylesheet distribution.
-     See ../README or http://cdn.docbook.org/release/xsl/current/ for
+     See ../README or https://cdn.docbook.org/release/xsl/current/ for
      copyright and other information.
 
      Contributors:
@@ -67,6 +67,7 @@
              or $lcext = 'ogv'
              or $lcext = 'ogg'
              or $lcext = 'webm'
+             or $lcext = 'webp'
              or $lcext = 'bmp'">1</xsl:if>
 </xsl:template>
 

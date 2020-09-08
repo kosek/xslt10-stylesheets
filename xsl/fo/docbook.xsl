@@ -16,7 +16,7 @@
 <!-- ********************************************************************
 
      This file is part of the XSL DocBook Stylesheet distribution.
-     See ../README or http://cdn.docbook.org/release/xsl/current/ for
+     See ../README or https://cdn.docbook.org/release/xsl/current/ for
      copyright and other information.
 
      ******************************************************************** -->
@@ -90,6 +90,10 @@
 <!-- ==================================================================== -->
 
 <xsl:key name="id" match="*" use="@id|@xml:id"/>
+
+<xsl:key name="keywords"
+         match="d:keyword[normalize-space(.) != '']"
+         use="normalize-space(.)" />
 
 <!-- ==================================================================== -->
 
